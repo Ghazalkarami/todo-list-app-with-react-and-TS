@@ -1,0 +1,32 @@
+#root{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.todo-section {
+    border: 3px solid #000000;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 152, 166);
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    padding: 0.5rem 0;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
